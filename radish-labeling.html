@@ -8,16 +8,18 @@
       }
     </style>
     <script src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v5.0.1.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="shutterbug.js"></script>
-    <script type="text/javascript">new Shutterbug('body', '', null, null);</script>
+    <script type="text/javascript">new Shutterbug('main', '', null, null);</script>
   </head>
   <body>
-    <img style="position:absolute" width="576" src="http://udl.concord.org/artwork/plant_34/radishsprouting/pl_34_radish_screenshot.jpg">
-    <div style="position:absolute" id="container"></div>
-    <div style="position:absolute; top:380px; left:276px; width:300px; font-size:14px">
-    Courtesy of Roger P. Hangarter, Indiana University, http://plantsinmotion.bio.indiana.edu
-    </div>
+    <div id="main" style="width:576px; height:420px">
+      <img style="position:absolute" width="576" src="http://udl.concord.org/artwork/plant_34/radishsprouting/pl_34_radish_screenshot.jpg">
+      <div style="position:absolute" id="container"></div>
+      <div style="position:absolute; top:380px; left:276px; width:300px; font-size:14px">
+      Courtesy of Roger P. Hangarter, Indiana University, http://plantsinmotion.bio.indiana.edu
+      </div>
+    <div>
     <script defer="defer">
       var stage = new Kinetic.Stage({
         container: 'container',
